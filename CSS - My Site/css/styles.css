@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+a {
+
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+    line-height: 2;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 80px;
+  line-height: 1;
+}
+
+.top-cloud {
+  position: relative;
+  left: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+}
+
+.dana-profile-img {
+  width: 200px;
+  height: 200px;
+}
+
+.middle-container {
+  position: relative;
+  padding-top: 50px;
+}
+
+.bio {
+  width: 30%;
+  margin: auto;
+}
+
+.hr-dotted-1 {
+  border: dotted 10px lightgray;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.hr-dotted-2 {
+  border: dotted 10px lightgray;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  width: 5%;
+  margin: 150px auto 100px;
+}
+
+.skill-row {
+  width: 30%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-image-1 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image-2 {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #66bfbf;
+  padding: 50px 0 20px 0;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: .75rem;
+  margin-top: 40px;
+}
+
+.p-bottom-margin {
+  margin-bottom: 75px;
+}
+
+.butn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 3px #666666;
+  -moz-box-shadow: 0 1px 3px #666666;
+  box-shadow: 0 1px 3px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66bfbf;
+  padding: 15px 20px 15px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #11999e;
+  text-decoration: none;
+}
+
+.contact-me {
+  margin: 0 0 100px 0;
+}
